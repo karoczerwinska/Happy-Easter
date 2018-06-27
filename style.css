@@ -29,7 +29,7 @@ h1 {
     height: 200px;
     background: #fbe9e7;
     margin: 1em auto;
-    border-radius: 50%/60% 60% 38% 38%; /** Składnia ze slashem pozwala definiować proporcje zaokrąglenia. Używając proporcji 50%/60% uzyskam zaokrąglenie odpowiadające 50% po szerokości i 60% na wysokości figury. */
+    border-radius: 50%/60% 60% 38% 38%;
     display: inline-block;
     overflow: hidden;
     grid-template-rows: repeat(6, 17%);
@@ -40,7 +40,7 @@ h1 {
 }
 
 .stripe:first-child {
-    border-top: none; /** Usunięcie pierwszego paska */
+    border-top: none;
 }
 .stripe:nth-child(1) {
     background-color: #fe0073;
